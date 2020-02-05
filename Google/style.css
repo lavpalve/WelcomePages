@@ -1,0 +1,123 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("nightTheme.jpg");
+	background-size: cover;
+}
+.header{
+	color: white;
+	font-size: 20px;
+	margin: 10px;
+	float: right;       	 
+}
+.googleLogo{
+	position: relative;
+	float: none;
+	width: 300px;
+	height: 100px;
+	margin-left: 38%;
+	margin-top: 8%;
+	text-align: center;
+	font-size: 72px;
+	font-family: sans-serif;
+	vertical-align: middle;
+	//border: 1px solid #fff;
+}
+.searchBar{
+	margin-left: 27%;
+	width: 45%;
+	height: 50px;
+	border: 1px solid #fff;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background-color: #fff;
+}
+.mostViewd{
+	margin: 15px;
+	margin-left: 27%;
+	width: 45%;
+	height: 150px;
+	//border: 1px solid #fff;
+}
+.view1,.view2,.view3,.view4{
+	margin: 5px;
+	width: 23%;
+	height: 135px;
+	//border: 1px solid #fff;
+	float: left;
+}
+.view1:hover,.view2:hover,.view3:hover,.view4:hover{
+	background-color: rgba(255,255,255,0.2);
+}
+#view1,#view2,#view3,#view4{
+	margin: 10px;
+	margin-left: 35px;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	background-color: #fff;
+}
+#name1,#name2,#name3,#name4{
+	margin: 15px;
+	width: 100px;
+	height: 22px;
+	border: 1px solid #fff;
+	border-top-left-radius: 70px;
+	border-bottom-left-radius: 70px;
+	border-top-right-radius: 70px;
+	border-bottom-right-radius: 70px;
+	background-color: #fff;
+}
+.countryInfo{
+	position: fixed;
+	bottom: 50px;
+	color: rgb(50,50,50);
+	height: 50px;
+	width: 100%;
+	border: 1px solid rgb(50,50,50);
+	background-color:#090A0F;
+	opacity: 0.6;
+}
+.about{
+	position: fixed;
+	bottom: 0px;
+	color: rgb(50,50,50);
+	height: 50px;
+	width: 100%;
+	border: 1px solid rgb(50,50,50);
+	background-color: #090A0F;
+	opacity: 0.8;
+}
+a{
+	float: left;
+	margin-right:15px;
+	margin-top: 3px;
+	color:white;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: rgb(200,50,200);
+}
+.scrollMenu{
+	margin:10px; 
+    padding:5px; 
+    background-color:#fff; 
+    width: 275px; 
+	height: 450px; 
+   	overflow-x: hidden; 
+    overflow-x: auto; 
+ 	text-align:justify; 
+	float: right;
+}        
+ 
+// Media Quries
+
+@media(max-width:700px){
+	opacity: 0.6;
+	
+}
